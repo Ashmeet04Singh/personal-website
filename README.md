@@ -8,11 +8,6 @@ A modern, responsive personal website built with Next.js and Tailwind CSS.
 - Fast loading performance
 - SEO optimized
 
-## Tech Stack
-- Next.js 14
-- React
-- Tailwind CSS
-- Framer Motion (for animations)
 
 ## Getting Started
 
