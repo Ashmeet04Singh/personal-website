@@ -21,6 +21,7 @@
   </nav>
 
   <main>
+    <!-- Home Section -->
     <section id="home" class="hero">
       <div class="hero-content">
         <h1>Hi, I'm Ashmeet Singh</h1>
@@ -29,39 +30,41 @@
       </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="about">
       <div class="container">
         <h2>About Me</h2>
         <div class="about-content">
           <div class="about-text">
-            <p>I'm Ashmeet Singh, a passionate developer and learner from Delhi. I completed my schooling from <strong>Veda Vyasa D.A.V Public School</strong> and will soon begin my undergraduate journey pursuing <strong>B.Tech in Computer Science and Engineering at GTBIT (Guru Tegh Bahadur Institute of Technology)</strong>.</p>
-            <p>My interests lie in artificial intelligence, machine learning, and software development. I've developed exciting projects including a Multi-Digit Handwritten Number Recognizer using CNN and OpenCV, a Fruit Recognition App using image classification, and a complete Hospital Management System with a modern Flask + PostgreSQL backend and Bootstrap frontend.</p>
-            <p>I believe in building impactful software, learning continuously, and experimenting with emerging technologies. I'm currently focusing on web app deployments, AI integrations, and clean UI/UX design.</p>
+            <p>I'm Ashmeet Singh, a passionate developer from Delhi. I completed my schooling from <strong>Veda Vyasa D.A.V Public School</strong> and will soon start my B.Tech in Computer Science at <strong>GTBIT</strong>.</p>
+            <p>My interests span AI, web apps, and interactive tools. I’ve built projects like a AI-powered math assistant, fruit classifier, digit recognizer, and more—many combining Python, web tech, and GUI.</p>
+            <p>I’m driven by learning, coding, and creating solutions that bridge education and tech.</p>
           </div>
           <div class="skills">
             <h3>Skills</h3>
             <div class="skill-tags">
               <span class="skill-tag">Python</span>
               <span class="skill-tag">Flask</span>
+              <span class="skill-tag">AI / ML</span>
+              <span class="skill-tag">SymPy</span>
               <span class="skill-tag">Tkinter</span>
-              <span class="skill-tag">HTML/CSS</span>
-              <span class="skill-tag">JavaScript</span>
               <span class="skill-tag">SQL</span>
-              <span class="skill-tag">Git & GitHub</span>
-              <span class="skill-tag">Machine Learning</span>
-              <span class="skill-tag">Bootstrap</span>
-              <span class="skill-tag">Vercel</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Deployments</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects" class="projects">
       <div class="container">
         <h2>Projects</h2>
         <div class="projects-grid">
 
+          <!-- Multi-Digit Recognition -->
           <div class="project-card">
             <div class="project-header">
               <h3>Multi Digit Recognition</h3>
@@ -69,14 +72,15 @@
                 <a href="https://github.com/Ashmeet04Singh/multi_digit_recognition" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
               </div>
             </div>
-            <p>AI-powered GUI app recognizing multi-digit handwritten numbers using CNN and OpenCV for segmentation.</p>
+            <p>AI GUI app recognizing handwritten multi-digit numbers using CNN and OpenCV.</p>
             <div class="project-tech">
               <span class="tech-tag">Python</span>
-              <span class="tech-tag">Tkinter</span>
               <span class="tech-tag">CNN</span>
+              <span class="tech-tag">Tkinter</span>
             </div>
           </div>
 
+          <!-- Fruit Recognition App -->
           <div class="project-card">
             <div class="project-header">
               <h3>Fruit Recognition App</h3>
@@ -84,7 +88,7 @@
                 <a href="https://github.com/Ashmeet04Singh/Fruit_Recognition_App" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
               </div>
             </div>
-            <p>A deep learning-based fruit image classifier with camera support and GUI built in Tkinter.</p>
+            <p>A classifier built with image classification that identifies fruit types via GUI/camera.</p>
             <div class="project-tech">
               <span class="tech-tag">Python</span>
               <span class="tech-tag">TensorFlow</span>
@@ -92,6 +96,27 @@
             </div>
           </div>
 
+          <!-- AI Math & Knowledge Assistant -->
+          <div class="project-card">
+            <div class="project-header">
+              <h3>AI Math & Knowledge Assistant</h3>
+              <div class="project-links">
+                <a href="https://github.com/Ashmeet04Singh/AI_Powered_Math_Assistant_Fixed.git" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <p>A GUI-based assistant that interprets math questions (like “integrate x^2”), solves, plots, and explains them using Sympy, Transformers, Matplotlib, and Tkinter.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Tkinter</span>
+              <span class="tech-tag">SymPy</span>
+              <span class="tech-tag">Matplotlib</span>
+              <span class="tech-tag">Transformers</span>
+            </div>
+          </div>
+
+          <!-- Patient Management System -->
           <div class="project-card">
             <div class="project-header">
               <h3>Patient Management System</h3>
@@ -101,7 +126,7 @@
                 </a>
               </div>
             </div>
-            <p>A full-featured hospital management system built using Flask and PostgreSQL. Includes login system, CRUD for patients, search, and Bootstrap UI.</p>
+            <p>A web-based hospital management platform built with Flask, PostgreSQL, and Bootstrap featuring CRUD, user roles, and responsive layout.</p>
             <div class="project-tech">
               <span class="tech-tag">Flask</span>
               <span class="tech-tag">PostgreSQL</span>
@@ -114,6 +139,7 @@
       </div>
     </section>
 
+    <!-- Certificates Section -->
     <section id="certificates" class="projects">
       <div class="container">
         <h2>Certificates</h2>
@@ -126,9 +152,9 @@
             <a href="certificates/Generative AI Foundations Certificate Program.pdf" target="_blank">
               <img src="images/genai_certificate.png" alt="Generative AI Certificate" style="width:100%; border-radius:10px; margin-bottom:1rem;">
             </a>
-            <p>Completed on <strong>14th July 2025</strong>. Covers foundational concepts in Generative AI.</p>
+            <p>Completed on <strong>14th July 2025</strong>. Focused on the fundamentals of Generative AI.</p>
             <div class="project-tech">
-              <span class="tech-tag">AI</span>
+              <span class="tech-tag">Generative AI</span>
               <span class="tech-tag">Foundations</span>
             </div>
           </div>
@@ -143,10 +169,10 @@
             <a href="certificates/certificate (1).pdf" target="_blank">
               <img src="images/powerbi_certificate.png" alt="Power BI Certificate" style="width:100%; border-radius:10px; margin-bottom:1rem;">
             </a>
-            <p>4-day hands-on course on Power BI fundamentals. Completed on <strong>31st July 2025</strong>.</p>
+            <p>Completed on <strong>31st July 2025</strong>. Power BI fundamentals & dashboard creation.</p>
             <div class="project-tech">
               <span class="tech-tag">Power BI</span>
-              <span class="tech-tag">Data Viz</span>
+              <span class="tech-tag">Data Visualization</span>
             </div>
           </div>
 
@@ -154,10 +180,11 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
       <div class="container">
         <h2>Get In Touch</h2>
-        <p class="contact-intro">I'd love to collaborate, work on cool ideas, or just connect. Reach out below:</p>
+        <p class="contact-intro">Whether you're recruiting, collaborating, or just want to chat—I'm always open. Reach out below:</p>
         <div class="contact-methods">
           <a href="mailto:ashmeet.singh.talwar1@gmail.com" class="contact-method">
             <i class="fas fa-envelope"></i>
